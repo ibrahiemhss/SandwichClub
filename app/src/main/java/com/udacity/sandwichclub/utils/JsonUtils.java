@@ -3,13 +3,10 @@ package com.udacity.sandwichclub.utils;
 import android.util.Log;
 
 import com.udacity.sandwichclub.model.Sandwich;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.ArrayList;
-
 import static com.udacity.sandwichclub.data.Contract.ALSO_KNOWN_AS;
 import static com.udacity.sandwichclub.data.Contract.DESCRIPTION;
 import static com.udacity.sandwichclub.data.Contract.IMAGE;
@@ -141,7 +138,6 @@ public class JsonUtils {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
         return sandwich;
     }
 
